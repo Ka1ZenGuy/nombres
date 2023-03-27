@@ -1,0 +1,45 @@
+.container-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+body {
+    /* Fondo azul */
+
+    background-color: #348fa3fa;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 30px;
+  }
+  
+  button {
+    /* Estilo del botón */
+    display: inline-block;
+    padding: 20px 20px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px; /* Ajuste de margen superior */
+  }
+  
+  button:hover {
+    /* Efecto de gota de agua */
+    transform: scale(1.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    /* Efecto de gota de agua al pulsar */
+    transform: translateY(4px);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  
